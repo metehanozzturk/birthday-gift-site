@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', system-ui, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /*background-color: #a2d2ff;*/
+    color: #ffffff;
+    text-shadow: 3px 3px 6px black;
+    background: linear-gradient(#85bbed, rgb(82, 215, 162));
+}
+
+#mo-img {
+    width: 150px;
+    border-radius: 25%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 25px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bday-date, #bday-age {
+    background-color: #EFB0C9;
+    padding: 10px;
+    border: 2px solid #EFB0C9;
+    border-radius: 20px;
+    margin: 2px;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+/*.gift-hint {
+}*/
+
+.gift-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid #EFB0C9;
+    border-radius: 10px;
+    background-image: url("images/gift.jpg");
+    background-size: cover;
+    background-position: right;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/office2.gif");
+    background-size: cover;
+    background-position: left;
+}
+
+.gift-title {
+    margin-bottom: 0px;
+}
+
+
+#gift-img-hot:hover {
+    background-image: url("images/office3.gif");
+    background-size: cover;
+    background-position: left;
+}
+
+#gift-img-dance:hover {
+    background-image: url("images/office4.gif");
+    background-size: cover;
+    background-position: left;
+}
+
+#gift-img-loser:hover {
+    background-image: url("images/office5.gif");
+    background-size: cover;
+    background-position: left;
+}
+
+#last-gift {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    border: 6px solid #EFB0C9;
+    border-radius: 10px;
+    background-image: url("images/gift.jpg");
+    background-size: cover;
+    background-position: right;
+}
+
+#last-gift:hover {
+    background-image: url("images/office7.gif");
+    background-size: cover;
+    background-position: left;
+}
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    font-size: 40px;
+    margin-top: 150px;
+    width: 800px;
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+}
+
+a:hover {
+    color: aquamarine;
+}
